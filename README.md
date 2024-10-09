@@ -17,4 +17,7 @@ Observer Pattern - Event 與 Listener 是分離的，允許觸發更多的 Liste
 Singleton Pattern - 在 AppServiceProvider 註冊 OrderService 使用單例模式。  
 Strategy Pattern - FormRequest 即符合此設計模式，可實現不同驗證策略對應不同控制器需要的場景。  
 Factory Pattern - Laravel Eloquent 的 Model 即為此模式的實現。  
-Adapter Pattern - Laravel Eloquent 可對應到不同的資料庫接口。  
+Adapter Pattern - Laravel Eloquent 可對應到不同的資料庫接口。   
+
+程式碼測試截圖：
+![image](test_result.png)
